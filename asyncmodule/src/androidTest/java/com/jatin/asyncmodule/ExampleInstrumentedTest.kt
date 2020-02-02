@@ -22,12 +22,6 @@ import org.junit.runner.RunWith
  */
 @RunWith(AndroidJUnit4ClassRunner::class)
 class ExampleInstrumentedTest {
-    @Test
-    fun useAppContext() {
-        // Context of the app under test.
-        val appContext = InstrumentationRegistry.getInstrumentation().context
-        assertEquals("com.jatin.asyncmodule.test", appContext.packageName)
-    }
 
     @Test
     fun getView() {
